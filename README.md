@@ -66,11 +66,11 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 
 https://www.nvidia.co.jp/Download/index.aspx?lang=jp
 
-![Screenshot from 2021-11-22 19-56-04](/home/ryotaro/Pictures/Screenshot from 2021-11-22 19-56-04.png)
+![Screenshot from 2021-11-22 19-56-04](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 19-56-04.png)
 
-![Screenshot from 2021-11-22 19-57-27](/home/ryotaro/Pictures/Screenshot from 2021-11-22 19-57-27.png)
+![Screenshot from 2021-11-22 19-57-27](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 19-57-27.png)
 
-どうやら、バージョン470が良さそう。（ここが落とし穴だったので注意）
+どうやら、バージョン470が良さそう。（ここが落とし穴だったので注意)
 
 
 
@@ -78,7 +78,7 @@ https://www.nvidia.co.jp/Download/index.aspx?lang=jp
 
 https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
 
-![Screenshot from 2021-11-22 20-01-04](/home/ryotaro/Pictures/Screenshot from 2021-11-22 20-01-04.png)
+![Screenshot from 2021-11-22 20-01-04](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 20-01-04.png)
 
 ドライバーによってCUDAのバージョンが異なることがわかる。470だったらCUDA11.4、460だったらCUDA11.2になる。
 
@@ -88,7 +88,7 @@ https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
 
 https://qiita.com/konzo_/items/a6f2e8818e5e8fcdb896
 
-![Screenshot from 2021-11-22 20-03-39](/home/ryotaro/Pictures/Screenshot from 2021-11-22 20-03-39.png)
+![Screenshot from 2021-11-22 20-03-39](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 20-03-39.png)
 
 ここでCUDAのバージョンが11.2までしかないことがわかる。**よって、GPUドライバーは460になる。**cuDNNのバージョンは8.1。
 
@@ -194,9 +194,9 @@ Cuda compilation tools, release 10.1, V10.1.243
 
 画面下にアーカイブ(Archived cuDNN Releases)があるので、そちらをクリック。
 
-![Screenshot from 2021-11-22 20-38-35](/home/ryotaro/Pictures/Screenshot from 2021-11-22 20-38-35.png)
+![Screenshot from 2021-11-22 20-38-35](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 20-38-35.png)
 
-![Screenshot from 2021-11-22 20-40-05](/home/ryotaro/Pictures/Screenshot from 2021-11-22 20-40-05.png)
+![Screenshot from 2021-11-22 20-40-05](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 20-40-05.png)
 
 以下をダウンロード。
 
@@ -406,7 +406,7 @@ localhost:8888/
 
 ここで、NVIDIAのドライバー等、再確認する。Linuxコマンドは「!」を頭に付ける。
 
-![Screenshot from 2021-11-22 21-45-16](/home/ryotaro/Pictures/Screenshot from 2021-11-22 21-45-16.png)
+![Screenshot from 2021-11-22 21-45-16](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 21-45-16.png)
 
 CUDAとcuDNNはローカルのUbuntu環境ではなさそう。なので、GPUのドライバーだけ入れてあれば、あとは環境を汚さずインストールできたかも。
 
@@ -417,7 +417,7 @@ from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
 ```
 
-![Screenshot from 2021-11-22 21-50-47](/home/ryotaro/Pictures/Screenshot from 2021-11-22 21-50-47.png)
+![Screenshot from 2021-11-22 21-50-47](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 21-50-47.png)
 
 ここでTensorflowがGPUを認識していないとCPUしか出てこない。今回はGPUも出ているのでインストールできた。
 
