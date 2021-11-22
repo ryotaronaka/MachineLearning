@@ -66,7 +66,7 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 
 https://www.nvidia.co.jp/Download/index.aspx?lang=jp
 
-![Screenshot from 2021-11-22 19-56-04](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 19-56-04.png)
+![Screenshot from 2021-11-22 19-56-04](/pictures/Screenshot from 2021-11-22 19-56-04.png)
 
 ![Screenshot from 2021-11-22 19-57-27](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 19-57-27.png)
 
@@ -78,7 +78,7 @@ https://www.nvidia.co.jp/Download/index.aspx?lang=jp
 
 https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
 
-![Screenshot from 2021-11-22 20-01-04](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 20-01-04.png)
+![Screenshot from 2021-11-22 20-01-04](/pictures/Screenshot from 2021-11-22 20-01-04.png)
 
 ドライバーによってCUDAのバージョンが異なることがわかる。470だったらCUDA11.4、460だったらCUDA11.2になる。
 
