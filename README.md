@@ -434,4 +434,4 @@ $ sudo apt-get update
 $ sudo apt-get install -y nvidia-docker2
 $ sudo systemctl restart docker
 
-*nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04　の代わりになるみたい。*
+nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04　の代わりになる様子。
