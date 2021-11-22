@@ -66,9 +66,9 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 
 https://www.nvidia.co.jp/Download/index.aspx?lang=jp
 
-![Screenshot from 2021-11-22 19-56-04](/pictures/Screenshot from 2021-11-22 19-56-04.png)
+![Screenshot from 2021-11-22 19-56-04](https://github.com/ryotaronaka/MachineLearning/pictures/Screenshot from 2021-11-22 19-56-04.png)
 
-![Screenshot from 2021-11-22 19-57-27](/home/ryotaro/Documents/Docker/my-nvidia-cuda/pictures/Screenshot from 2021-11-22 19-57-27.png)
+![Screenshot from 2021-11-22 19-57-27](https://github.com/ryotaronaka/MachineLearning/pictures/Screenshot from 2021-11-22 19-57-27.png)
 
 どうやら、バージョン470が良さそう。（ここが落とし穴だったので注意)
 
