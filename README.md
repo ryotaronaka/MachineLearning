@@ -1,4 +1,4 @@
-# Ubuntu 20.04 Docker 上で NVIDIA cuda + Cudnn + Jupyter Notebook を立ち上げる
+# Ubuntu 20.04 Docker 上で NVIDIA cuda + cuDNN + Jupyter Notebook を立ち上げる
 
 ## 目的
 
