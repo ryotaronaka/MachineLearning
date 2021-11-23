@@ -66,9 +66,9 @@ driver   : xserver-xorg-video-nouveau - distro free builtin
 
 https://www.nvidia.co.jp/Download/index.aspx?lang=jp
 
-![Screenshot from 2021-11-22 19-56-04](https://github.com/ryotaronaka/MachineLearning/pictures/Screenshot from 2021-11-22 19-56-04.png?raw=true)
+![Screenshot from 2021-11-22 19-56-04](https://github.com/ryotaronaka/MachineLearning/pictures/1.png?raw=true)
 
-![Screenshot from 2021-11-22 19-57-27](https://github.com/ryotaronaka/MachineLearning/pictures/Screenshot from 2021-11-22 19-57-27.png?raw=true)
+![Screenshot from 2021-11-22 19-57-27](https://github.com/ryotaronaka/MachineLearning/pictures/2.png?raw=true)
 
 どうやら、バージョン470が良さそう。（ここが落とし穴だったので注意)
 
