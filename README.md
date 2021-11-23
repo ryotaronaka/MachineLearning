@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Ubuntu 20.04 Docker 上で NVIDIA cuda + Cudnn + Jupyter Notebook を立ち上げる
 
 [TOC]
