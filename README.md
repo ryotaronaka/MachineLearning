@@ -1,9 +1,5 @@
 # Ubuntu 20.04 Docker 上で NVIDIA cuda + Cudnn + Jupyter Notebook を立ち上げる
 
-[TOC]
-
-
-
 ## 目的
 
 Ubuntu上で機械学習を学ぶための環境を作った際のメモ。
